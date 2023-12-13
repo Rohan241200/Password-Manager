@@ -1,0 +1,298 @@
+.bg-container {
+  background-color: #c3caea;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-card {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 10px;
+}
+
+.app-logo {
+  width: 15%;
+}
+
+.add-pass-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .add-pass-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+}
+
+.add-pass-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #454f84;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .add-pass-card {
+    width: 50%;
+    margin-right: 10px;
+    justify-content: center;
+  }
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.pass-manager-img {
+  width: 100%;
+}
+
+.pass-heading {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #f8fafc;
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .pass-manager-img {
+    width: 35%;
+  }
+
+  .pass-heading {
+    font-size: 26px;
+  }
+}
+
+.input-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 1px solid #94a3b8;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .input-card {
+    margin-bottom: 20px;
+  }
+}
+
+.input-img {
+  width: 40px;
+  padding: 10px;
+}
+
+.input-user {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-weight: 500;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.separate {
+  border: 1px solid #b6c3ca;
+  height: 100%;
+}
+
+.add-pass-btn {
+  background-color: #0b69ff;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #ffffff;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  align-self: flex-end;
+}
+
+.your-password-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #5863a5;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.your-pass-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.your-pass-desc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+}
+
+.your-pass-heading {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Roboto;
+  margin-right: 10px;
+}
+
+.your-pass-count {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Roboto;
+  background-color: transparent;
+  border: 1px solid #b6c3ca;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .your-pass-heading {
+    font-size: 20px;
+  }
+
+  .your-pass-desc {
+    font-size: 16px;
+  }
+}
+
+.your-search-pass {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f8fafc;
+  border: 1px solid #94a3b8;
+  width: 40%;
+}
+
+.your-search-img {
+  width: 30px;
+  height: 25px;
+  padding: 5px;
+}
+
+.your-search-input {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Roboto;
+  padding: 8px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .your-search-img {
+    width: 30px;
+    height: 30px;
+  }
+  .your-search-input {
+    padding: 10px;
+  }
+}
+
+.your-pass-separate {
+  border: 1px solid #c3caea;
+  width: 100%;
+}
+
+.your-show-card {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.your-show-input {
+  margin-right: 10px;
+  height: 15px;
+  width: 15px;
+}
+
+.your-show-pass {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.no-password-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.no-pass-img {
+  width: 75%;
+  margin-bottom: 10px;
+}
+
+.no-pass-desc {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .no-pass-img {
+    width: 50%;
+  }
+
+  .no-pass-desc {
+    font-size: 18px;
+  }
+}
+
+.lists {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .lists {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

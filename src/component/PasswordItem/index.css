@@ -1,0 +1,94 @@
+.pass-lists {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #0ea5e9;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .pass-lists {
+    width: 45%;
+  }
+}
+
+.pass-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+
+.initial-name {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #ffffff;
+  border-radius: 50%;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.bg-1 {
+  background-color: #f59e0b;
+}
+
+.bg-2 {
+  background-color: #10b981;
+}
+
+.bg-3 {
+  background-color: #f97316;
+}
+
+.bg-4 {
+  background-color: #14b8a6;
+}
+
+.bg-5 {
+  background-color: #b91c1c;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  width: 20%;
+}
+
+.user-info {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Roboto;
+  color: #ffffff;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.password {
+  margin-top: 10px !important;
+}
+
+.pass-star {
+  width: 100px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-icon {
+  width: 30px;
+}
